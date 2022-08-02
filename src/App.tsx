@@ -1,14 +1,15 @@
+import { FC } from "react";
 import "./App.css";
 
 import styled from "styled-components";
 
-function App() {
+const App: FC = () => {
   return (
     <StyledMain>
       <p>KulturaNFT Website</p>
     </StyledMain>
   );
-}
+};
 
 const StyledMain = styled.main`
   display: flex;
