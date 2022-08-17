@@ -1,15 +1,29 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import { GlobalStyle } from "./constants";
+import Home from "./pages/Home/Home";
+import Roadmap from "./pages/Roadmap/Roadmap";
+import Team from "./pages/Team/Team";
+import NotFound from "./pages/NotFound/NotFound";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <GlobalStyle />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/roadmap" element={<Roadmap />} />
+        <Route path="/team" element={<Team />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
