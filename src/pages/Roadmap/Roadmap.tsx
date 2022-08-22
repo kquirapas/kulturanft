@@ -45,28 +45,28 @@ const PHASES: RoadmapPhase[] = [
       "WINNERS OF EVENTS GET A CHANCE TO HAVE THEIR OWN PERSONALIZED NFTS",
     ],
   },
-  {
-    title: "IKATLONG YUGTO",
-    imagePath: "assets/images/head-silhouette.png",
-    phases: [
-      "PUT UP THE 3 LEGENDARY 1 OF 1 NFTS FOR AUCTION",
-      "NIPA HUT MEMBERS EARN EXCLUSIVE BENEFITS",
-      "TOP NFT HOLDER WILL GET REWARDS",
-      "SNEAK PEEKS OF WHAT IS COMING NEXT",
-    ],
-  },
-  {
-    title: "IKAAPAT NA YUGTO",
-    imagePath: "assets/images/kubo-silhouette.png",
-    phases: [
-      "IMPLEMENTATION OF BURNING",
-      "INTRODUCTION TO STAKING",
-      "SCHOLARSHIP FOR COLLEGE FRESHMEN",
-      "REVISION OF DISCORD",
-      "INTRODUCTION TO NFT TICKETS",
-      "MARKETING OF 2ND PROJECT",
-    ],
-  },
+  // {
+  //   title: "IKATLONG YUGTO",
+  //   imagePath: "assets/images/head-silhouette.png",
+  //   phases: [
+  //     "PUT UP THE 3 LEGENDARY 1 OF 1 NFTS FOR AUCTION",
+  //     "NIPA HUT MEMBERS EARN EXCLUSIVE BENEFITS",
+  //     "TOP NFT HOLDER WILL GET REWARDS",
+  //     "SNEAK PEEKS OF WHAT IS COMING NEXT",
+  //   ],
+  // },
+  // {
+  //   title: "IKAAPAT NA YUGTO",
+  //   imagePath: "assets/images/kubo-silhouette.png",
+  //   phases: [
+  //     "IMPLEMENTATION OF BURNING",
+  //     "INTRODUCTION TO STAKING",
+  //     "SCHOLARSHIP FOR COLLEGE FRESHMEN",
+  //     "REVISION OF DISCORD",
+  //     "INTRODUCTION TO NFT TICKETS",
+  //     "MARKETING OF 2ND PROJECT",
+  //   ],
+  // },
 ];
 
 const Roadmap: FC = () => {
