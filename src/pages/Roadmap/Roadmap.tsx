@@ -34,17 +34,17 @@ const PHASES: RoadmapPhase[] = [
       "CREATING THE WEBSITE",
     ],
   },
-  {
-    title: "IKALAWANG YUGTO",
-    imagePath: "assets/images/kubo-silhouette.png",
-    phases: [
-      "IMPLEMENTATION OF ROYALTIES TO HOLDERS",
-      "INTRODUCTION OF NFT BURNING",
-      "WEEKLY PODCASTS & PROMOTIONS FOR OTHER NFTS",
-      "WEEKLY EVENTS FOR THE COMMUNITY",
-      "WINNERS OF EVENTS GET A CHANCE TO HAVE THEIR OWN PERSONALIZED NFTS",
-    ],
-  },
+  // {
+  //   title: "IKALAWANG YUGTO",
+  //   imagePath: "assets/images/kubo-silhouette.png",
+  //   phases: [
+  //     "IMPLEMENTATION OF ROYALTIES TO HOLDERS",
+  //     "INTRODUCTION OF NFT BURNING",
+  //     "WEEKLY PODCASTS & PROMOTIONS FOR OTHER NFTS",
+  //     "WEEKLY EVENTS FOR THE COMMUNITY",
+  //     "WINNERS OF EVENTS GET A CHANCE TO HAVE THEIR OWN PERSONALIZED NFTS",
+  //   ],
+  // },
   // {
   //   title: "IKATLONG YUGTO",
   //   imagePath: "assets/images/head-silhouette.png",
