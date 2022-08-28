@@ -28,6 +28,7 @@ const Team: FC = () => {
             />
           ))}
         </StyledGrid>
+        <Spacer size={10} />
       </Body>
     </StyledMain>
   );

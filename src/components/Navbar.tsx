@@ -19,6 +19,7 @@ const Navbar: FC = () => {
         <StyledLink to="/">HOME</StyledLink>
         <StyledLink to="/roadmap">ROADMAP</StyledLink>
         <StyledLink to="/team">TEAM</StyledLink>
+        <StyledLink to="/utilities">UTILITIES</StyledLink>
         <AnchorLink anchor="https://twitter.com/_KulturaNFT">
           <img
             className="link-logo"

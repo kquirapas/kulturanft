@@ -8,6 +8,7 @@ import { GlobalStyle } from "./constants";
 import Home from "./pages/Home/Home";
 import Roadmap from "./pages/Roadmap/Roadmap";
 import Team from "./pages/Team/Team";
+import Utilities from "./pages/Utilities/Utilities";
 import NotFound from "./pages/NotFound/NotFound";
 
 const root = ReactDOM.createRoot(
@@ -21,6 +22,7 @@ root.render(
         <Route path="/" element={<Home />} />
         <Route path="/roadmap" element={<Roadmap />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/utilities" element={<Utilities />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
