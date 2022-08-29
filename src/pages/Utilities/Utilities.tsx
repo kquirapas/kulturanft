@@ -109,11 +109,11 @@ const Utilities: FC = () => {
           SUPPLY ALLOCATION
         </StyledSectionHeader>
         <StyledSectionBody className="body-text-size">
-          <strong>FOR MINTING:</strong> 6000
+          <strong>FOR MINTING:</strong> 60%
           <br />
-          <strong>FOR TEAM:</strong> 1000
+          <strong>FOR TEAM:</strong> 10%
           <br />
-          <strong>FOR FREE/GIVEAWAYS/PARTNERS:</strong> 3000
+          <strong>FOR FREE/GIVEAWAYS/PARTNERS:</strong> 30%
           <br />
         </StyledSectionBody>
         <StyledSectionHeader className="section-text-size">
