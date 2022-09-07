@@ -161,6 +161,10 @@ const StyledBox = styled.section`
         border-radius: 100%;
       }
     }
+
+    @media only screen and (max-width: 480px) {
+      flex-direction: column;
+    }
   }
 `;
 

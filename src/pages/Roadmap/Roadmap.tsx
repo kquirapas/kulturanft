@@ -97,6 +97,8 @@ const StyledMain = styled.main`
   background-size: 100%;
   width: 100vw;
   min-height: 100vh;
+
+  overflow-x: hidden;
 `;
 
 const StyledSilhouette = styled.section`

@@ -49,6 +49,11 @@ const GlobalStyle = createGlobalStyle`
       text-wrap: break-word;
       font-size: 4em;
     }
+
+    @media only screen and (max-width: 480px) {
+      text-wrap: break-word;
+      font-size: 3em;
+    }
   }
 
   .subheader-text-size {
@@ -56,7 +61,12 @@ const GlobalStyle = createGlobalStyle`
 
     @media only screen and (max-width: 896px) {
       text-wrap: break-word;
-      font-size: 1em;
+      font-size: 3em;
+    }
+
+    @media only screen and (max-width: 480px) {
+      text-wrap: break-word;
+      font-size: 2em;
     }
   }
 
@@ -66,6 +76,10 @@ const GlobalStyle = createGlobalStyle`
 
   .section-text-size {
     font-size: 2em;
+
+    @media only screen and (max-width: 480px) {
+      font-size: 1.5em;
+    }
   }
 
   .body-text-size {

@@ -112,6 +112,15 @@ const StyledBox = styled.section`
     span {
       font-family: Intro;
       margin-right: 1em;
+      text-align: left;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .phase-box-header {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
     }
   }
 `;
