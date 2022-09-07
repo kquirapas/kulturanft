@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "./static/css/main.71270a4e.css",
-    "main.js": "./static/js/main.0a8c48f4.js",
+    "main.js": "./static/js/main.b52a40c9.js",
     "static/js/787.71e672d5.chunk.js": "./static/js/787.71e672d5.chunk.js",
     "static/media/PasseroOne.ttf": "./static/media/PasseroOne.76acecbbaaaaaaa2d7e1.ttf",
     "static/media/Intro.otf": "./static/media/Intro.48c9dd6d4d95149ea0fd.otf",
     "index.html": "./index.html",
     "main.71270a4e.css.map": "./static/css/main.71270a4e.css.map",
-    "main.0a8c48f4.js.map": "./static/js/main.0a8c48f4.js.map",
+    "main.b52a40c9.js.map": "./static/js/main.b52a40c9.js.map",
     "787.71e672d5.chunk.js.map": "./static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.71270a4e.css",
-    "static/js/main.0a8c48f4.js"
+    "static/js/main.b52a40c9.js"
   ]
 }
